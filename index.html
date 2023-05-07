@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <section class="section1">
+        <header>
+            <a href="#"><img src="images/header-logo.svg" width="103px" height="18px"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Protfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="#">عربي</a>
+                <button>Apply now</button>
+            </div>
+        </header>
+        <div class="burger_icon">
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <div id="header_mobile" style="display: none;">
+            <div>
+                <a href="#">عربي</a>
+                <button>Apply now</button>
+                <i class='bx bx-x' id="cancel"></i>
+            </div>
+            <nav>
+                <ul class="nav_ul">
+                    <li><a href="#">Protfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="section2">
+        <section class="section2_container">
+            <section class="section2_header">
+                <h1 class="label">We back exceptional founders in MENA</h1>
+                <div class="bar">
+                    <div class="ProgressBar" style="--width: 1;"></div>
+                </div>
+            </section>
+            <section class="section2_main">
+                <section class="section2_main_left">
+                    <div class="project_active">
+                        <div><img src="images/sary-rect-1.webp" height="35px" alt=""></div>
+                        <h2>"The supply chain of B2B wholesale
+                            is broken. We will fix it"</h2>
+                        <p>Mohammed Aldossary<span style="opacity: .6;">, Co-founder & CEO</span></p>
+                    </div>
+                    <div class="project_active" style="display: none;">
+                        <div><img src="images/Tabby-2.png" height="35px" alt=""></div>
+                        <h2>"Everyone has the right to get credit instantly"</h2>
+                        <p>Hussam Araby<span style="opacity: .6;">, Co-founder & CEO</span></p>
+                    </div>
+                    <div class="project_active" style="display: none;">
+                        <div><img src="images/Foodics_logo.png" style="object-fit: contain;" width="100px" height="35px"
+                                alt=""></div>
+                        <h2>We empower restaurant and merchant owners to enrich their operations</h2>
+                        <p>Ahmed Alzaini <span style="opacity: .6;">, Co-founder & CEO</span></p>
+                    </div>
+                    <div>
+                        <a href="#" class="btnPortfolio">Our Portfolio</a>
+                    </div>
+                </section>
+                <section class="section2_main_right">
+                    <div class="mySlides f">
+                        <img src="images/Aldossary_sary.webp" class="img_slide">
+                    </div>
+
+                    <div class="mySlides f">
+                        <img src="images/Ahmed-Alzini.webp" class="img_slide">
+                    </div>
+
+                    <div class="mySlides f">
+                        <img src="images/Hosam-Arab.webp" class="img_slide">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </section>
+            </section>
+        </section>
+        <section class="section2_mobile">
+            <section class="section2_header">
+                <h1 class="label">We back exceptional founders in MENA</h1>
+                <div class="bar">
+                    <div class="ProgressBar" style="--width: 1;"></div>
+                </div>
+            </section>
+            <section class="section-with-carousel section-with-left-offset  mt-5">
+                <div class="carousel-wrapper" style="margin-left: 218px;">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="height: 447px;">
+                                <figure style="position: absolute;">
+                                    <img src="images/Aldossary_sary.webp" alt="" class="imgHeight">
+                                </figure>
+                                <div class="content_swiper">
+                                    <img src="images/sary-rect-1.webp" alt="">
+                                    <h1>SARY</h1>
+                                    <p>"The supply chain of B2B wholesale
+                                        is broken. We will fix it"</p>
+                                    <h1>Mohammed Aldossary</h1>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 447px;">
+                                <figure style="position: absolute;">
+                                    <img src="images/Ahmed-Alzini.webp" alt="" class="imgHeight">
+                                </figure>
+                                <div class="content_swiper">
+                                    <img src="images/Foodics_logo.png" alt="">
+                                    <h1>FOODICS</h1>
+                                    <p>We empower restaurant and merchant owners to enrich their operations</p>
+                                    <h1>Ahmed Alzaini</h1>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" style="height: 447px;">
+                                <figure style="position: absolute;">
+                                    <img src="images/Hosam-Arab.webp" alt="" class="imgHeight">
+                                </figure>
+                                <div class="content_swiper">
+                                    <img src="images/Tabby-2.png" alt="">
+                                    <h1>TABBY</h1>
+                                    <p>"Everyone has the right to get credit instantly"</p>
+                                    <h1>Hosam Arab</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+        </section>
+    </section>
+    <section class="section3">
+        <section class="offers">
+            <section class="offers_header">
+                <span>Why Raed Ventures?</span>
+                <img src="images/icon-hat-dark.svg">
+            </section>
+            <section class="offers_main">
+                <section class="offers_main_Left">
+                    <h2>A catalyst for growth in the MENA region</h2>
+                </section>
+                <section class="offers_main_Right">
+                    <article>
+                        <h2>Investing in potential</h2>
+                        <p>We recognize potential when we see it, and we won’t hesitate to offer you our resources,
+                            funding and expertise so that
+                            your journey becomes a seamless transition</p>
+                    </article>
+                    <article>
+                        <h2>Strategic Partnerships</h2>
+                        <p>We help startups in building and executing their visions through collaborations with our
+                            portfolio companies and sister
+                            companies, leveraging their knowledge and expertise</p>
+                    </article>
+                    <article>
+                        <h2>Access to new markets</h2>
+                        <p>We open up doors for MENA startups and provide them with the opportunity to work in the Saudi
+                            & GCC markets</p>
+                    </article>
+                    <article>
+                        <h2>Access to RAEDPlus</h2>
+                        <p>RaedPlus is our new signature program that brings added value to our entrepreneurs, matching
+                            them with word-class
+                            experts, helping them recruit talents and granting them access to free services
+                        </p>
+                    </article>
+                </section>
+
+            </section>
+        </section>
+        <section class="offers">
+            <section class="team_header">
+                <span>Meet the team</span>
+                <img src="images/icon-hat-dark.svg">
+            </section>
+            <section class="team_main">
+                <section class="team_main_top">
+                    <h2>Our team</h2>
+                    <p>Raed is passionate, driven and resilient. We greatly believe in the power of human potential</p>
+                    <div class="tabs">
+                        <div class="tab" id="team">
+                            <button id="t" style="opacity: 1; border-bottom: 1px solid;">Team</button>
+                            <span id="t1" style="opacity: 1;">(10)</span>
+                        </div>
+                        <div class="tab" id="advisors">
+                            <button id="a">Advisors</button>
+                            <span id="a1">(2)</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="team_main_bottom">
+                    <section id="team_slider" class="section-with-carousel section-with-left-offset  mt-5">
+                        <div class="carousel-wrapper">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="width: 290.8px;">
+                                        <figure>
+                                            <img style="width: 253.333px;  height:480;"
+                                                src="images/RAED16-scaled-e1667555393576.jpg" alt="">
+                                        </figure>
+                                        <p class="card_name">Omar Almajdouie</p>
+                                        <p class="card_job">Founding Partner</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="width: 290.8px;">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/RAED24-scaled-e1667555143323.jpg" alt="">
+                                        </figure>
+                                        <p class="card_name">Saed Nashef</p>
+                                        <p class="card_job">Founding Partner</p>
+                                        <div style="display: flex;">
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-twitter'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="width: 290.8px;">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/Talal-Alasmari.webp" alt="">
+                                        </figure>
+                                        <p class="card_name">Talal Alasmari</p>
+                                        <p class="card_job">Founding Partner</p>
+                                        <div style="display: flex;">
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-twitter'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/Wael-Nafee.-1-e1642409775483.webp" alt="">
+                                        </figure>
+                                        <p class="card_name">Wael Nafee</p>
+                                        <p class="card_job">Partner</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/RAED31-scaled-e1667483907287.jpg" alt="">
+                                        </figure>
+                                        <p class="card_name">Eyad Alharbi</p>
+                                        <p class="card_job">Senior Associate</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/yomna-e1668592913628.jpg" alt="">
+                                        </figure>
+                                        <p class="card_name">Yomna Abousamra</p>
+                                        <p class="card_job">Associate</p>
+                                        <div style="display: flex;">
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-facebook'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/RAED33-scaled-e1667483645703.jpg" alt="">
+                                        </figure>
+                                        <p class="card_name">Omar Sharkawy</p>
+                                        <p class="card_job">Investment Analyst</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/high-resolution.webp" alt="">
+                                        </figure>
+                                        <p class="card_name">Arsalan Yousuf</p>
+                                        <p class="card_job">Senior Finance Manager</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/Hussien-Abdulqader.webp" alt="">
+                                        </figure>
+                                        <p class="card_name">Hussien Abdulqader</p>
+                                        <p class="card_job">Business Support Associate</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/RAED11-1-scaled-e1667555591621.jpg" alt="">
+                                        </figure>
+                                        <p class="card_name">Maha Adel</p>
+                                        <p class="card_job">Executive Assistant</p>
+                                        <a href="#" class="linked">
+                                            <i class='bx bxl-linkedin'></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </section>
+                    <section id="Advisors_slider" style="display: none;"
+                        class="section-with-carousel section-with-left-offset  mt-5">
+                        <div class="carousel-wrapper">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="width: 415.8px;">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/Screen-Shot-2020-10-30-at-08.25.30.webp" alt="">
+                                        </figure>
+                                        <p class="card_name">Abdulla Elyas</p>
+                                        <p class="card_job">Advisor</p>
+                                        <div style="display: flex;">
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" style="width: 415.8px;">
+                                        <figure>
+                                            <img style="width: 253.333px; margin-right: 70px; height:480;"
+                                                src="images/Screen-Shot-2020-10-30-at-08.24.34.webp" alt="">
+                                        </figure>
+                                        <p class="card_name">Seth Levine</p>
+                                        <p class="card_job">Advisor</p>
+                                        <div style="display: flex;">
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                            <a href="#" class="linked">
+                                                <i class='bx bxl-twitter'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </section>
+                    <div>
+                        <a href="#" class="team_btn">About RAED</a>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section class="offers">
+            <section class="new_header">
+                <span>Want to know more?</span>
+                <img src="images/icon-hat-dark.svg">
+            </section>
+            <section class="new_main">
+                <section class="team_main_top">
+                    <h2>News</h2>
+                    <p>We share with you the latest investment rounds, funding events, partnerships and more
+                    </p>
+                    <div class="news_cards">
+                        <article class="news_card">
+                            <figure>
+                                <img src="images/Palm-HR-team.webp">
+                            </figure>
+                            <h3><a href="#">palm.hr raises $5M pre-series A to transform HR tech and
+                                    employee
+                                    experiences across MENA</a></h3>
+                            <span><i class='bx bxs-circle'></i><span>8 Feb 2023</span></span>
+                        </article>
+                        <article class="news_card">
+                            <figure>
+                                <img src="images/Wafeq-team (1).webp">
+                            </figure>
+                            <h3><a href="#">Wafeq raises $3 million seed round led by Raed Ventures
+                                    and participation
+                                    from Wamda Capital</a></h3>
+                            <span><a href="#">Investments</a><i class='bx bxs-circle'></i><span>25 Jan
+                                    2023</span></span>
+                        </article>
+                        <article class="news_card">
+                            <figure>
+                                <img src="images/Sylendar-team-pic-scaled (1).webp">
+                            </figure>
+                            <h3><a href="#">Egypt’s online used-car retailer Sylndr raises $12.6M in
+                                    pre-seed round, set
+                                    to revolutionise automotive market</a></h3>
+                            <span><a href="#">Investments</a><i class='bx bxs-circle'></i><span>23 May
+                                    2022</span></span>
+                        </article>
+                    </div>
+                    <a href="#" class="team_btn" style="margin-left: 0px;">More News</a>
+                </section>
+            </section>
+        </section>
+    </section>
+    <footer class="footer">
+        <section class="offers">
+            <section class="footer_header">
+                <a href="#"><img src="images/header-logo.svg" width="103px" height="18px"></a>
+                <h3>Subscribe to Our <br> Newsletter</h3>
+            </section>
+            <section class="footer_middle">
+                <div class="footer_left">
+                    <a href="#">About</a>
+                    <a href="#">Protfolio</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer_Mddle">
+                    <p>Don’t fall behind. Stay up-to-date on our investments, partnerships and events in MENA</p>
+                    <form action="">
+                        <div class="input_box">
+                            <input type="email" required>
+                            <label for="email">leave your email</label>
+                            <button type="submit"></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer_right">
+                    <a href="#">Anas Ibn Malik Rd,
+                        Almalqa, Riyadh 11564
+                        Saudi Arabia</a>
+                    <a href="#">info@raed.vc</a>
+                    <div class="footer_social">
+                        <a href="#" class="social">
+                            <i class='bx bxl-twitter'></i>
+                        </a><a href="#" class="social">
+                            <i class='bx bxl-linkedin'></i>
+                        </a><a href="#" class="social">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer_bottom">
+                <p>© All Rights Reserved. RAED 2023</p>
+                <a href="#">Privacy Policy</a>
+            </section>
+        </section>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
